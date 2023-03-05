@@ -3,6 +3,7 @@ import 'package:api_tutorials/example_four.dart';
 import 'package:api_tutorials/example_three.dart';
 import 'package:api_tutorials/example_two.dart';
 import 'package:api_tutorials/home_screen.dart';
+import 'package:api_tutorials/signup.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: ExampleFive()
+      home: SignUpScreen()
     );
   }
 }
