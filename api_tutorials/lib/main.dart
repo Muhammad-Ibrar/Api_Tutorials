@@ -4,6 +4,7 @@ import 'package:api_tutorials/example_three.dart';
 import 'package:api_tutorials/example_two.dart';
 import 'package:api_tutorials/home_screen.dart';
 import 'package:api_tutorials/signup.dart';
+import 'package:api_tutorials/upload_image.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: SignUpScreen()
+      home: UploadImageScreen()
     );
   }
 }
